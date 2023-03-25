@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class MainController {
     public static void main(String args[]) {
+
+        // Методы в контроллере
         LearningGroupService gu = new LearningGroupService();
         Student student = new Student();
         Teacher teacher = new Teacher();
@@ -17,6 +19,7 @@ public class MainController {
         gu.addTeacher(teacher);
         Scanner input = new Scanner(System.in);
         int option = 0;
+        // С помощью циклов можем добавить данные
         do {
             menu();
             option = input.nextInt();

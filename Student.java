@@ -1,4 +1,6 @@
 public class Student {
+    // Класс студент
+    // Закрытые поля
     private String firstName;
     private int idNumber;
     private String lastName;
@@ -7,12 +9,14 @@ public class Student {
 
     }
 
+    // Конструктор
     public Student(String firstName, int idNumber, String lastName) {
         this.firstName = firstName;
         this.idNumber = idNumber;
         this.lastName = lastName;
     }
 
+    // Закрытые поля доступны только в рамках своего класса
     public String getFirstNameT() {
         return firstName;
     }

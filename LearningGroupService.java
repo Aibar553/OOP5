@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class LearningGroupService {
+
     LinkedList<Teacher> teacher;
     ArrayList<Student> student;
 
@@ -10,6 +11,7 @@ public class LearningGroupService {
         student = new ArrayList<>();
     }
 
+    // Добавил методы
     public void add(Student liststudent) {
         if (!find(liststudent.getIdNumber())) {
             student.add(liststudent);

@@ -1,5 +1,7 @@
 
 public class Teacher {
+    // Класс студент
+    // Закрытые поля
     private String firstNameT;
     private int idNumberTeacher;
     private String lastNameT;
@@ -16,6 +18,7 @@ public class Teacher {
         this.speciality = speciality;
     }
 
+    // Закрытые поля доступны только в рамках своего класса
     public String getFirstNameT() {
         return firstNameT;
     }
